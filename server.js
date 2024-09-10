@@ -10,7 +10,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'https://todo-mern-jade-psi.vercel.app', // The URL of your frontend
+  origin: 'https://*.vercel.app', // The URL of your frontend
   credentials: true
 }));
 
